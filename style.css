@@ -49,10 +49,10 @@ p {
 }
 .info-area {
     display: flex;
-    flex-direction: column;
-    /* Of the parent div */
+   /* Of the parent div */
     height: 100%;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 .info-text {
 margin-left:80px ;
