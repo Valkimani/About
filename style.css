@@ -1,0 +1,14 @@
+section {
+    height: 500px;
+    background-color: rgb(236, 64, 236);
+    border:solid black 1px ;
+}
+.info {
+    height: 100vh;
+    background-color: blue;
+}
+
+footer {
+    height: 300px;
+    background-color: black;
+}
