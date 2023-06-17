@@ -77,3 +77,7 @@ margin-bottom: 200px;
     background-color: #525050;
     color: #808080;
 }
+.socials {
+    /* To align the links to the h1 and p elements */
+    padding-bottom: 20px;
+}
