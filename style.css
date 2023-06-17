@@ -37,6 +37,12 @@ li {
 }
 h1 {
     font-size: 90px;
+    margin: 0;
+}
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300px;
 }
 .info-text {
 margin-left:80px ;
@@ -44,11 +50,13 @@ margin-left:80px ;
 
 .button {
     width: 200px;
-    height: 80px;
+    height: 55px;
     border-radius: 30px;
     background-color: rgb(207, 122, 92);
     text-align: center;
-    padding-top: 18px;
+    font-size: 30px;
+    font-weight:300;
+    padding-top: 5px;
+    margin-top: 20px; ;
        
 }
-/* Created another div with the class button and added styling to the button. Added a google font link to the head and updated the font in the body */
