@@ -17,10 +17,14 @@ footer {
 
 nav {
     display: flex;
+    /* Push logo to the left and the ul on the right */
+    justify-content: space-between;
 }
 ul {
    display: flex;
 }
 li {
     text-decoration: none;
+    width: 200px;
 }
+
