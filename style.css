@@ -1,11 +1,14 @@
+
 body {
     font-family: 'Poppins', sans-serif;
+   
     
 }
 section {
     height: 500px;
     background-color: white;
     /* border:solid black 1px ; */
+    
 }
 .info {
     height: 100vh;
@@ -66,5 +69,11 @@ margin-bottom: 200px;
     font-weight:300;
     padding-top: 5px;
     margin-top: 20px; ;
-       
+}
+.button:hover{
+    background-color: rgb(142, 80, 57);
+}
+.button:active{
+    background-color: grey;
+    color: #808080;
 }
