@@ -74,6 +74,6 @@ margin-bottom: 200px;
     background-color: rgb(142, 80, 57);
 }
 .button:active{
-    background-color: grey;
+    background-color: #525050;
     color: #808080;
 }
