@@ -93,7 +93,14 @@ margin-bottom: 200px;
     padding: 80px;
 }
 
+/* Center the cards sub-section-one */
 
+.sub-section-one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
 .social-link {
     margin: 20px;
     }
@@ -107,7 +114,7 @@ margin-bottom: 200px;
         align-items: center;
     }
     .project-card {
-        width: 200px;
+        width: 300px;
         height: 500px;
         border: 1px solid black;
 
@@ -115,5 +122,4 @@ margin-bottom: 200px;
     .project-container {
     display: flex;
     justify-content: space-around;
-    padding: 80px;
 }
