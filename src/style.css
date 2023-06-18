@@ -5,10 +5,7 @@ body {
     
 }
 section {
-    height: 500px;
     background-color: white;
-    /* border:solid black 1px ; */
-    
 }
 .info {
     height: 100vh;
@@ -98,4 +95,13 @@ margin-bottom: 200px;
 
 .social-link {
     margin: 20px;
+    }
+
+    #headshot {
+        width: 300px;
+        border-radius:0px 0px 0px 0px;
+    }
+    .headshot-container {
+        display: flex;
+        align-items: center;
     }
