@@ -140,7 +140,12 @@ hr {
     margin-right: 20px;
 }
 
+/* project link styling */
 #project-link{
     text-decoration: none;
     color:rgb(207, 122, 92);
+}
+a {
+    text-decoration: none;
+    color: white;
 }

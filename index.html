@@ -23,9 +23,9 @@
       <nav>
         <img src="/src/images/LOGO.png" class="logo"/ alt="val's logo" />
         <ul>
-          <li>About me</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li><a href="#about-me"> About me</a></li>
+          <li><a href="#projects">Projects<a></a></li>
+          <li><a href="#contact-me">Contact</a></li>
         </ul>
         <!-- Add hamburger icon -->
         <!-- <button></button> -->
@@ -34,7 +34,8 @@
       <div class="info-area">
         <div class="info-text">
           <h1>Valentine Kimani</h1>
-          <div class="button">About me</div>
+          <p>Web Developer</p>
+          <div class="button"><a href="#about-me"> About me </a></div>
         </div>
         <!-- Social links: Using divs to keep them stacked over each other -->
         <div class="socials">
@@ -83,7 +84,7 @@
       </div>
     </section>
     <!-- removed sub-section -->
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
       <div class="information">
         <h2>About me</h2>
         <!-- Moved p into the second section -->
@@ -97,7 +98,7 @@
         />
       </div>
     </section>
-    <section class="sub-section-one">
+    <section class="sub-section-one" id="projects">
       <h2>Projects</h2>
       <div class="project-container">
         <div class="project-card">
@@ -106,15 +107,18 @@
             alt="First project"
             src="./src/images/Project1.jpg.png"
           />
-          <h3>Project Name</h3>
+          <h3>Project One</h3>
           <p class="subtext">This a project on ...</p>
           <hr />
-          <a
-            href="https://github.com/Valkimani/Tell_a_joke/tree/main"
-            id="project-link"
-            target="_blank"
-            ><p class="subtext">View here</p>
-          </a>
+          <p class="subtext">
+            <a
+              href="https://github.com/Valkimani/Tell_a_joke/tree/main"
+              id="project-link"
+              target="_blank"
+            >
+            </a>
+            View here
+          </p>
         </div>
         <div class="project-card">
           <img
@@ -122,12 +126,12 @@
             alt="Second project"
             src="./src/images/project2.png"
           />
-          <h3>Project Name</h3>
+          <h3>Project Two</h3>
           <p class="subtext">This a project on ...</p>
           <hr />
-          <a href="" id="project-link" target="_blank"
-            ><p class="subtext">View here</p>
-          </a>
+          <p class="subtext">
+            <a href="" id="project-link" target="_blank"> </a>View here
+          </p>
         </div>
         <div class="project-card">
           <img
@@ -135,25 +139,25 @@
             alt="Third project"
             src="./src/images/project3.png"
           />
-          <h3>Project Name</h3>
+          <h3>Project Three</h3>
           <p class="subtext">This a project on ...</p>
           <hr />
-          <a href="" id="project-link" target="_blank"
-            ><p class="subtext">View here</p>
-          </a>
+          <p class="subtext">
+            <a href="" id="project-link" target="_blank"> </a>View here
+          </p>
         </div>
         <div class="project-card">
           <img class="project-image" alt="Forth project" src="" />
-          <h3>Project Name</h3>
+          <h3>Project Four</h3>
           <p class="subtext">This a project on ...</p>
           <hr />
-          <a href="" id="project-link" target="_blank"
-            ><p class="subtext">View here</p>
-          </a>
+          <p class="subtext">
+            <a href="" id="project-link" target="_blank"></a>View here
+          </p>
         </div>
       </div>
     </section>
-    <footer></footer>
+    <footer id="contact-me"></footer>
     <script src="/src/script.js"></script>
   </body>
 </html>
