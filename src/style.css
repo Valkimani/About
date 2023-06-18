@@ -54,7 +54,7 @@ h2{
 p {
     margin: 0;
     font-size: 30px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 .subtext {
     font-size: 15px;
@@ -92,7 +92,7 @@ margin-bottom: 200px;
 }
 .socials {
     /* To align the links to the h1 and p elements */
-    padding-bottom: 20px;
+    padding-bottom: 200px;
 
 }
 
@@ -117,6 +117,7 @@ margin-bottom: 200px;
     #headshot {
         width: 300px;
         border-radius:0px 0px 0px 0px;
+        margin-left: 80px;
     }
     .headshot-container {
         display: flex;
@@ -138,7 +139,8 @@ margin-bottom: 200px;
 @media only screen and (max-width: 1000px){
 .project-container {
     /* Allows items to stack */
-    display: flex-wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 }
 .project-image {
@@ -197,4 +199,7 @@ ul.show {
         background-color: #313030;
     }
     /* Make the logo disappear if the screen is under 1000px in width */
+    .logo {
+        display: none;
+    }
 }
