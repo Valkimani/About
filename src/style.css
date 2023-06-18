@@ -39,10 +39,7 @@ ul {
    justify-content: space-around;
    font-size: 30px;
 }
-/* Display the nav links when the hamburger is clicked. */
-ul.show {
-    display: block;
-}
+
 li {
     text-decoration: none;
     /* width: 200px; */
@@ -180,9 +177,24 @@ a {
         color: white;
         font-size: 30px;
         display: block;
+        margin: 20px;
+        align-self: flex-end;
     }
     /* Hide the unordered list if the screen is under or equal to 1000px */
     ul{
         display: none;
+        background-color:#313030 ;
+        margin: 0px;
     }
+    /* Display the nav links when the hamburger is clicked. */
+ul.show {
+    display: block;
+}
+    /* Make the nav bar display differently */
+    nav {
+        align-items: flex;
+        flex-direction: column-reverse;
+        background-color: #313030;
+    }
+    /* Make the logo disappear if the screen is under 1000px in width */
 }
