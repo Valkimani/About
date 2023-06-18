@@ -134,7 +134,7 @@ margin-bottom: 200px;
     justify-content: space-around;
 }
 /* anything under or equal to 1000px will have different styling */
-@media only screen and (max-width 1000px){
+@media only screen and (max-width: 1000px){
 .project-container {
     /* Allows items to stack */
     display: flex-wrap;
@@ -158,4 +158,24 @@ hr {
 a {
     text-decoration: none;
     color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* Make the hamburger visible if it's under a certain width */
+
+@media only screen and (max-width:1000px){
+    .hamburger {
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        display: block;
+    }
+    /* Hide the unordered list if the screen is under or equal to 1000px */
+    ul{
+        display: none;
+    }
 }
