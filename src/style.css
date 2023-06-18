@@ -133,7 +133,13 @@ margin-bottom: 200px;
     display: flex;
     justify-content: space-around;
 }
-
+/* anything under orequal to 1000px will have different styling */
+@media only screen and (max-width 1000px){
+.project-container {
+    /* Allows items to stack */
+    display: flex-wrap;
+}
+}
 .project-image {
     margin-top: 25px;
     width: 200px;
