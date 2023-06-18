@@ -133,7 +133,7 @@ margin-bottom: 200px;
     display: flex;
     justify-content: space-around;
 }
-/* anything under orequal to 1000px will have different styling */
+/* anything under or equal to 1000px will have different styling */
 @media only screen and (max-width 1000px){
 .project-container {
     /* Allows items to stack */
