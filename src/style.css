@@ -15,8 +15,12 @@ section {
 }
 
 footer {
-    height: 300px;
+    /* removed height and added padding. */
+    /* height: 500px; */
     background-color: black;
+    color: white;
+   text-align: center;
+    padding: 80px;
 }
 
 nav {
