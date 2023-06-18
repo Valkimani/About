@@ -85,3 +85,6 @@ margin-bottom: 200px;
     /* To align the links to the h1 and p elements */
     padding-bottom: 20px;
 }
+.social-link {
+    margin: 20px;
+}
