@@ -39,6 +39,10 @@ ul {
    justify-content: space-around;
    font-size: 30px;
 }
+/* Display the nav links when the hamburger is clicked. */
+ul.show {
+    display: block;
+}
 li {
     text-decoration: none;
     /* width: 200px; */
@@ -162,6 +166,9 @@ a {
 
 .hamburger {
     display: none;
+}
+.hamburger:focus{
+    outline: 0;
 }
 
 /* Make the hamburger visible if it's under a certain width */
