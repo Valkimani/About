@@ -2,8 +2,9 @@
 body {
     font-family: 'Poppins', sans-serif;
    margin: 0;
-    
+       
 }
+  
 section {
     background-color: white;
 }
@@ -11,7 +12,7 @@ section {
     height: 100vh;
     background-color: #1c1c1c;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 footer {
@@ -20,7 +21,7 @@ footer {
     background-color: black;
     color: white;
    text-align: center;
-    padding: 80px;
+    padding: 55px;
 }
 
 nav {
@@ -45,7 +46,7 @@ li {
     /* width: 200px; */
 }
 h1 {
-    font-size: 90px;
+    font-size: 45px;
     margin: 0;
 }
 h2{
@@ -53,7 +54,7 @@ h2{
 }
 p {
     margin: 0;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
 }
 .subtext {
@@ -99,7 +100,7 @@ margin-bottom: 200px;
 .sub-section {
     justify-content: space-around;
     display: flex;
-    padding: 80px;
+    padding: 50px;
 }
 
 /* Center the cards sub-section-one */
@@ -108,16 +109,16 @@ margin-bottom: 200px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 80px;
+    padding: 60px;
 }
 .social-link {
     margin: 20px;
     }
 
     #headshot {
-        width: 300px;
+        width: 200px;
         border-radius:0px 0px 0px 0px;
-        margin-left: 80px;
+        margin-left: 60px;
     }
     .headshot-container {
         display: flex;
@@ -136,7 +137,7 @@ margin-bottom: 200px;
     justify-content: space-around;
 }
 /* anything under or equal to 1000px will have different styling */
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 600px){
 .project-container {
     /* Allows items to stack */
     display: flex;
@@ -145,9 +146,10 @@ margin-bottom: 200px;
 }
 .project-image {
     margin-top: 25px;
-    width: 200px;
-    border-radius: 125px;
+    width: 300px;
+    /* border-radius: 15px; */
 }
+
 hr {
     margin-left: 20px;
     margin-right: 20px;
@@ -172,7 +174,7 @@ a {
 
 /* Make the hamburger visible if it's under a certain width */
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:600px){
     .hamburger {
         border: 0;
         background-color: transparent;
